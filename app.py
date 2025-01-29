@@ -7,9 +7,9 @@ import polars as pl
 from polars import col as c
 import polars.selectors as cs
 
-ui.page_opts(title="Beta App", fillable=False)
+ui.page_opts(title="Beta App")
 
-with ui.sidebar(width=400):
+with ui.sidebar(width=300):
     ui.input_selectize(
         id='files',
         label='File Choice',
