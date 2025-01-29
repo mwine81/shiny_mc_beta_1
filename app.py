@@ -105,7 +105,7 @@ def filter_product():
         selected=[]
         )
 
-with ui.layout_column_wrap(fill=False,max_height=150):
+with ui.layout_column_wrap(fill=False):
     with ui.value_box():
         'Total'
         @render.ui
